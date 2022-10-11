@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:ital,wght@0,300;0,400;1,300;1,400&family=Plus+Jakarta+Sans:wght@400;600&family=Poppins:wght@200;300;400;500&family=Quicksand&family=Ubuntu:wght@500&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0;
+  font-family:Ubuntu ;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+#logo{
+  /* padding: 40px 0px; */
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#logo>img{
+width: 70px;
+height: 70px;
+margin: 0px 10px;
+}
+#logo>h1{
+  text-align: center;
+  font-size: 60px;
+  color: palevioletred;
+}
+#logo>h1>span{
+  color: black;
+}
+#logo>b{
+  color: palevioletred;
+  font-size: 20px;
+  transition: .3s;
+  transform: rotate(-90deg);
+  margin-left: -10px;
+}
+#logo>h1>b:hover{
+  color: green;
+}
+nav{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height:60px ;
+  align-items: center;
+}
+nav>ul{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+nav>ul>li{
+  list-style-type: none;
+
+}
+#link{
+  color: white;
+  transition: .5s ease-out;
+  padding: 5px 20px;
+}
+#link:hover{
+  background-color: #fff;
+  color: palevioletred;
+  border-radius: 50px;
+}
+
+/* ----------------home ---------- */
+#Homediv{
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+#Homediv>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ----------------about------ */
+
+#Aboutdiv{
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url("http://nameyourvictory.com/wp-content/uploads/2022/07/barber-wallpaper-black-marble-background.jpg");
+  object-fit: cover;
+}
+#Aboutdiv>h1{
+  color: white;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+/* ------gallery */
+
+#Gallerydiv{
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url("http://nameyourvictory.com/wp-content/uploads/2022/07/barber-wallpaper-black-marble-background.jpg");
+  object-fit: cover;
+}
+#Gallerydiv>h1{
+  color: white;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  
+  font-size: 4rem;
+}
+
+#imagecontainer{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#imagecontainer2{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#imagecontainer2>img{
+  width: 45%;
+  margin: 20px;
+  border-radius: 20px;
+  transition: .3s;
+}
+#imagecontainer2>img:hover{
+  transform: scale(.9);
+}
+
+
+
+
+
+
+
+
+/* -----------service----- */
+
+#Servicediv{
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url("http://nameyourvictory.com/wp-content/uploads/2022/07/barber-wallpaper-black-marble-background.jpg");
+  object-fit: cover;
+}
+#Servicediv>h1{
+  color: white;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+
+/* -----------------footer---------- */
+
+footer{
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  margin-top: 10px;
+}
+footer >h1{
+  color: white;
+  /* border-bottom: 3px solid white; */
+  font-size: 4rem;
+}
+#border{
+  border-bottom: 4px solid white;
+  /* color: white; */
+  width: 40%;
+  letter-spacing: 20px;
+}
+
+
+#detail{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+#detail>p{
+  color: white;
+  margin: 10px;
+}
+#detail>p>span{
+  color: palevioletred;
+  margin: 0px 5px;
+}
+
+#condition{
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#condition>div>h3>span{
+  color: palevioletred;
+}
+
+#policy{
+  display: flex;
+  width: 40%;
+  justify-content: space-around
+}
+
+/* ---------------ragister--------- */
+
+#ragistercontainer{
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0px;
+}
+#ragistercontainer>div{
+  width: 50%;
+  height: 100%;
+}
+#ragistercontainer>div>img{
+  width: 100%;
+  height: 100%;
+}
+#ragistercontainer>form{
+width: 40%;
+height: 90%;
+border: 1px solid gray;
+background-color: black;
+padding: 30px;
+}
+
+.inputdiv{
+ margin: 20px 0px;
+}
+.inputdiv>label{
+  color: palevioletred;
+  margin-left: 5px;
+}
+.inputdiv>input{
+  width: 90%;
+  height: 30px;
+  margin: 5px 0px;
+  border: 1px solid palevioletred;
+  outline: navajowhite;
+  border-radius: 20px;
+  padding:5px 5px;
+}
+
+#submit{
+  background-color: palevioletred;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  margin: 0px 20px;
+  cursor: pointer;
+}
+#login{
+  background-color: green;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+#login2{
+  color: white;
+}
+
+#popup{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#popup>div{
+  width: 50%;
+  border: 2px solid palevioletred;
+  border-radius: 30px;
+  text-align: center;
+  padding: 50px;
+}
+#popup>div>h1{
+  color: black;
+  text-align: center;
+}
+#popup>div>h1>span{
+  color: palevioletred;
+}
+#popup>div>p{
+  text-align: center;
+  margin: 20px 0px;
+}
+#popup>div>p>strong{
+  color: palevioletred;
+
+}
+#popup>div>p>span{
+  color: palevioletred;
+}
+
+/* -------------------login----------- */
+#loginarea{
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0px;
+}
+#loginarea>div{
+  width: 50%;
+  height: 100%;
+}
+#loginarea>div>img{
+  width: 100%;
+  height: 100%;
+}
+#loginarea>form{
+width: 40%;
+height: 90%;
+border: 1px solid gray;
+background-color: black;
+padding: 30px;
+}
+
+#logindiv{
+  margin: 20px 0px;
+ }
+ #logindiv>label{
+   color: palevioletred;
+   margin-left: 5px;
+ }
+ #logindiv>input{
+   width: 90%;
+   height: 30px;
+   margin: 5px 0px;
+   border: 1px solid palevioletred;
+   outline: navajowhite;
+   border-radius: 20px;
+   padding:5px 5px;
+ }
+
+
+/* ---------------------- */
