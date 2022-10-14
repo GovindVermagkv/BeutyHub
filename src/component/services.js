@@ -1,12 +1,17 @@
 import React from "react";
 import "../App.css"
 import Footer from "./footer";
+import 'animate.css';
+
+
+
+
 
 const Services=()=>{
     return(
         <>
             <div id="Servicediv">
-                <h1>Services</h1>
+                <h1 className="animate__animated animate__fadeInUp">Services</h1>
             </div>
             <div id="imagecontainer">
                     <div id="imagecontainer2">

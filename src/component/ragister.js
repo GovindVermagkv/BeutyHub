@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Footer from "./footer";
 import "../App.css"
+import 'animate.css';
 
 const Ragister = () => {
     const [formdata, setFormdata] = useState({
@@ -45,12 +46,12 @@ const Ragister = () => {
 
     return (
         <>
-            {issubmit ? <div id="popup"><div> <h1><span>Welcome</span> {formdata.name}</h1> <p>Thanx for making interest in our website :) We will provide you a better services .<br></br><br></br><strong>ALL THE BEST</strong> </p>
+            {issubmit ? <div id="popup" className="animate__animated animate__zoomIn"><div> <h1><span>Welcome</span> {formdata.name}</h1> <p>Thanx for making interest in our website :) We will provide you a better services .<br></br><br></br><strong>ALL THE BEST</strong> </p>
             <p><span>Your UserId :</span> {formdata.email}</p>
             <p><span>Your Password :</span> {formdata.password}</p>
              <button id="submit"><Link to="/Login" id="submit">Click to Login</Link></button></div></div> : <> <div id="ragistercontainer">
-            <div><img src="https://www.kindpng.com/picc/m/0-6568_clipart-beauty-parlour-logo-hd-png-download.png" alt=""/></div>
-                <form>
+            <div className="animate__animated animate__fadeInDown"><img src="https://www.kindpng.com/picc/m/0-6568_clipart-beauty-parlour-logo-hd-png-download.png" alt=""/></div>
+                <form className="animate__animated animate__fadeInUp">
                     <div className="inputdiv">
                         <label htmlFor="Name">Name</label><br></br>
                         <input type={"text"} onChange={handleChange} name="name" placeholder="Enter Your name" value={formdata.name} />

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:ital,wght@0,300;0,400;1,300;1,400&family=Plus+Jakarta+Sans:wght@400;600&family=Poppins:wght@200;300;400;500&family=Quicksand&family=Ubuntu:wght@500&display=swap');
-
+/* import 'animate.css'; */
 * {
   margin: 0%;
   padding: 0;
@@ -113,23 +113,20 @@ nav>ul>li {
   width: 35%;
   /* height: 100%; */
   border-radius: 20px;
-  /* transition: .3s ease-in-out; */
 }
-/* #serviceshome>img:hover{
-  transform: scale(1.3);
-} */
+
 #serviceshome>div{
   width: 57%;
 }
 #serviceshome>div>h2{
   text-transform: uppercase;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
   color: navy;
 }
 #serviceshome>div>p{
 width: 80%;
-margin-bottom: 7%;
-line-height: 20px;
+margin-bottom: 2%;
+line-height: 30px;
 }
 #serviceshome>div>button{
   padding: 15px 50px;
@@ -185,8 +182,8 @@ line-height: 20px;
   color: white;
   margin-bottom: 50px;
   text-transform: uppercase;
-
   font-size: 4rem;
+  
 }
 
 #imagecontainer {

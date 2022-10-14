@@ -6,12 +6,13 @@ import "../App.css"
 
 
 import {Outlet, Link } from "react-router-dom";
+import 'animate.css'
 
 
 const Layout=()=>{
     return(
         <>
-        <div id="logo"><img src="https://i.pinimg.com/originals/c6/5e/64/c65e6462967bbeba86a6ed9d59554310.png" alt=" "/> <h1>Beauty<span>Hub</span></h1><b>.Com</b> </div>
+        <div id="logo" className="animate__animated animate__fadeInDown"><img src="https://i.pinimg.com/originals/c6/5e/64/c65e6462967bbeba86a6ed9d59554310.png" alt=" "/> <h1>Beauty<span>Hub</span></h1><b>.Com</b> </div>
             <nav>
 
                 <ul>

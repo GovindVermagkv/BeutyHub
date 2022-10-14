@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Footer from "./footer";
 import "../App.css"
 import Home from "./Home"
+import 'animate.css';
 // import Layout from "./Layout"
 
 
@@ -43,12 +44,12 @@ const Login=()=>{
 // }, [isLogin ])
     return(
         <>
-        {isLogin ? <> <div  id="welcome"><h1><span>Welcome, </span> {username}</h1> <Home /></div></> : <>
+        {isLogin ? <> <div  id="welcome"><h1 className="animate__animated animate__zoomIn"><span>Welcome, </span> {username}</h1> <Home /></div></> : <>
             <div id="loginarea">
-            <div>
+            <div className="animate__animated animate__fadeInUp" >
             <img src="https://www.kindpng.com/picc/m/0-6568_clipart-beauty-parlour-logo-hd-png-download.png" alt=""/>
             </div>
-            <form>
+            <form className="animate__animated animate__fadeInDown">
             <div id="logindiv">
                     <label>Email</label><br></br>
                     <input type={"text"} onChange={handlelogin} name="useremail" placeholder="Ragistered Email" value={logindata.useremail} />

@@ -1,12 +1,13 @@
 import React from "react";
 import "../App.css"
 import Footer from "./footer";
+import 'animate.css';
 
 const Gallery=()=>{
     return(
         <>
             <div id="Gallerydiv">
-                <h1>Gallery</h1>
+                <h1 className="animate__animated animate__fadeInUp">Gallery</h1>
             </div>
             <div id="imagecontainer">
                 <div id="imagecontainer3">

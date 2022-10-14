@@ -1,11 +1,12 @@
 import React from "react";
 import "../App.css"
+import 'animate.css';
 
 const Footer=()=>{
     return(
         <>
             <footer>
-                <h1>CONTACT US</h1>
+                <h1 className="animate__animated animate__fadeInUp">CONTACT US</h1>
                 <span id="border">.........</span>
                 <div id="detail">
                     <p><span>Phone :</span> +91 7307220229</p>

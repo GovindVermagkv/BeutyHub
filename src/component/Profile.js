@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
+import 'animate.css'
 
 const Profile = () => {
 
@@ -12,7 +13,7 @@ const Profile = () => {
 
     return (
         <>
-            <div id="profile"><div> <h1><span>Welcome</span> {username}</h1> <p>Thanx for making interest in our website :) We will provide you a better services .<br></br><br></br><strong>ALL THE BEST</strong> </p>
+            <div id="profile" className="animate__animated animate__zoomIn"><div> <h1><span>Welcome</span> {username}</h1> <p>Thanx for making interest in our website :) We will provide you a better services .<br></br><br></br><strong>ALL THE BEST</strong> </p>
                 <div id="info">
                     <p><span>Your UserName :</span>{username}</p>
                     <p><span>Your UserId :</span> {userid}</p>
