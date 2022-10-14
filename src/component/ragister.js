@@ -49,7 +49,7 @@ const Ragister = () => {
             <p><span>Your UserId :</span> {formdata.email}</p>
             <p><span>Your Password :</span> {formdata.password}</p>
              <button id="submit"><Link to="/Login" id="submit">Click to Login</Link></button></div></div> : <> <div id="ragistercontainer">
-            <div><img src="https://i.pinimg.com/originals/c6/5e/64/c65e6462967bbeba86a6ed9d59554310.png" alt=""/></div>
+            <div><img src="https://www.kindpng.com/picc/m/0-6568_clipart-beauty-parlour-logo-hd-png-download.png" alt=""/></div>
                 <form>
                     <div className="inputdiv">
                         <label htmlFor="Name">Name</label><br></br>

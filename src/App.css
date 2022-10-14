@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:ital,wght@0,300;0,400;1,300;1,400&family=Plus+Jakarta+Sans:wght@400;600&family=Poppins:wght@200;300;400;500&family=Quicksand&family=Ubuntu:wght@500&display=swap');
 
-*{
+* {
   margin: 0%;
   padding: 0;
-  font-family:Ubuntu ;
+  font-family: Ubuntu;
   text-transform: capitalize;
   text-decoration: none;
 }
 
-#logo{
+#logo {
   /* padding: 40px 0px; */
   width: 100%;
   height: 150px;
@@ -16,71 +16,143 @@
   align-items: center;
   justify-content: center;
 }
-#logo>img{
-width: 70px;
-height: 70px;
-margin: 0px 10px;
+
+#logo>img {
+  width: 70px;
+  height: 70px;
+  margin: 0px 10px;
 }
-#logo>h1{
+
+#logo>h1 {
   text-align: center;
   font-size: 60px;
   color: palevioletred;
 }
-#logo>h1>span{
+
+#logo>h1>span {
   color: black;
 }
-#logo>b{
+
+#logo>b {
   color: palevioletred;
   font-size: 20px;
   transition: .3s;
   transform: rotate(-90deg);
   margin-left: -10px;
 }
-#logo>h1>b:hover{
+
+#logo>h1>b:hover {
   color: green;
 }
-nav{
+
+nav {
   background-color: black;
   display: flex;
   justify-content: center;
-  height:60px ;
+  height: 60px;
   align-items: center;
 }
-nav>ul{
+
+nav>ul {
   display: flex;
   width: 100%;
   justify-content: space-around;
 }
-nav>ul>li{
+
+nav>ul>li {
   list-style-type: none;
 
 }
-#link{
+
+#link {
   color: white;
   transition: .5s ease-out;
   padding: 5px 20px;
 }
-#link:hover{
+
+#link:hover {
   background-color: #fff;
   color: palevioletred;
   border-radius: 50px;
 }
 
 /* ----------------home ---------- */
-#Homediv{
+#Homediv {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   object-fit: cover;
 }
-#Homediv>img{
+
+#Homediv>img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  margin-bottom: 10px;
 }
+
+#homegallery {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 10px;
+  color: palevioletred;
+  text-transform: uppercase;
+}
+#serviceshome{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+  transition: .3s;
+}
+#serviceshome:hover{
+  transform: scale(1.1);
+}
+#serviceshome>img{
+  width: 35%;
+  /* height: 100%; */
+  border-radius: 20px;
+  /* transition: .3s ease-in-out; */
+}
+/* #serviceshome>img:hover{
+  transform: scale(1.3);
+} */
+#serviceshome>div{
+  width: 57%;
+}
+#serviceshome>div>h2{
+  text-transform: uppercase;
+  margin-bottom: 4%;
+  color: navy;
+}
+#serviceshome>div>p{
+width: 80%;
+margin-bottom: 7%;
+line-height: 20px;
+}
+#serviceshome>div>button{
+  padding: 15px 50px;
+  border-radius: 30px;
+  color: navy;
+  border: 2px solid navy;
+  float: right;
+  margin-right: 20px;
+  transition: .3s;
+  cursor: pointer;
+}
+#serviceshome>div>button:hover{
+  color: black;
+  border-color:black ;
+}
+
+
+
+
 
 /* ----------------about------ */
 
-#Aboutdiv{
+#Aboutdiv {
   width: 100%;
   height: 75vh;
   display: flex;
@@ -89,7 +161,8 @@ nav>ul>li{
   background-image: url("http://nameyourvictory.com/wp-content/uploads/2022/07/barber-wallpaper-black-marble-background.jpg");
   object-fit: cover;
 }
-#Aboutdiv>h1{
+
+#Aboutdiv>h1 {
   color: white;
   margin-bottom: 50px;
   text-transform: uppercase;
@@ -98,7 +171,7 @@ nav>ul>li{
 
 /* ------gallery */
 
-#Gallerydiv{
+#Gallerydiv {
   width: 100%;
   height: 75vh;
   display: flex;
@@ -107,36 +180,68 @@ nav>ul>li{
   background-image: url("http://nameyourvictory.com/wp-content/uploads/2022/07/barber-wallpaper-black-marble-background.jpg");
   object-fit: cover;
 }
-#Gallerydiv>h1{
+
+#Gallerydiv>h1 {
   color: white;
   margin-bottom: 50px;
   text-transform: uppercase;
-  
+
   font-size: 4rem;
 }
 
-#imagecontainer{
+#imagecontainer {
   width: 100%;
   height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#imagecontainer2{
+
+#imagecontainer2 {
   width: 80%;
   height: 80%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-#imagecontainer2>img{
+
+#imagecontainer2>img {
+  width: 30%;
+  margin: 20px;
+  border-radius: 20px;
+  transition: .3s;
+}
+
+#imagecontainer2>img:hover {
+  transform: scale(.9);
+}
+
+
+#imagecontainer3 {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#imagecontainer3>img {
   width: 45%;
   margin: 20px;
   border-radius: 20px;
   transition: .3s;
 }
-#imagecontainer2>img:hover{
+
+#imagecontainer3>img:hover {
   transform: scale(.9);
+}
+
+
+#Aboutcontainer2{
+  width: 60%;
+  margin: 30px 0px;
+  line-height: 30px;
+  word-spacing: 3px;
 }
 
 
@@ -148,7 +253,7 @@ nav>ul>li{
 
 /* -----------service----- */
 
-#Servicediv{
+#Servicediv {
   width: 100%;
   height: 75vh;
   display: flex;
@@ -157,7 +262,8 @@ nav>ul>li{
   background-image: url("http://nameyourvictory.com/wp-content/uploads/2022/07/barber-wallpaper-black-marble-background.jpg");
   object-fit: cover;
 }
-#Servicediv>h1{
+
+#Servicediv>h1 {
   color: white;
   margin-bottom: 50px;
   text-transform: uppercase;
@@ -167,41 +273,59 @@ nav>ul>li{
 
 /* -----------------footer---------- */
 
-footer{
+footer {
   width: 100%;
   text-align: center;
   background-color: black;
   margin-top: 10px;
 }
-footer >h1{
+
+footer>h1 {
   color: white;
   /* border-bottom: 3px solid white; */
   font-size: 4rem;
 }
-#border{
+
+#border {
   border-bottom: 4px solid white;
   /* color: white; */
   width: 40%;
   letter-spacing: 20px;
 }
+#gallborder{
+  border-bottom: 3px solid black;
+  color: white;
+  margin-top: -20px;
+  letter-spacing: 10px;
+}
+#heading{
+  width: 100%;
+  text-align: center;
+  margin: 15px 0px;
+  text-transform: uppercase;
+}
+#abouthome{
+  width: 40%;
+}
 
-
-#detail{
+#detail {
   width: 100%;
   display: flex;
   justify-content: center;
   margin: 20px 0px;
 }
-#detail>p{
+
+#detail>p {
   color: white;
   margin: 10px;
 }
-#detail>p>span{
+
+#detail>p>span {
   color: palevioletred;
   margin: 0px 5px;
 }
 
-#condition{
+#condition {
   width: 100%;
   height: 100px;
   background-color: #fff;
@@ -209,11 +333,12 @@ footer >h1{
   align-items: center;
   justify-content: space-around;
 }
-#condition>div>h3>span{
+
+#condition>div>h3>span {
   color: palevioletred;
 }
 
-#policy{
+#policy {
   display: flex;
   width: 40%;
   justify-content: space-around
@@ -221,7 +346,7 @@ footer >h1{
 
 /* ---------------ragister--------- */
 
-#ragistercontainer{
+#ragistercontainer {
   width: 100%;
   height: 95vh;
   display: flex;
@@ -229,40 +354,46 @@ footer >h1{
   justify-content: space-around;
   margin: 10px 0px;
 }
-#ragistercontainer>div{
+
+#ragistercontainer>div {
   width: 50%;
   height: 100%;
 }
-#ragistercontainer>div>img{
+
+#ragistercontainer>div>img {
   width: 100%;
   height: 100%;
 }
-#ragistercontainer>form{
-width: 40%;
-height: 90%;
-border: 1px solid gray;
-background-color: black;
-padding: 30px;
+
+#ragistercontainer>form {
+  width: 40%;
+  height: 90%;
+  border-radius: 20px;
+  border: 1px solid gray;
+  background-color: black;
+  padding: 30px;
 }
 
-.inputdiv{
- margin: 20px 0px;
+.inputdiv {
+  margin: 20px 0px;
 }
-.inputdiv>label{
+
+.inputdiv>label {
   color: palevioletred;
   margin-left: 5px;
 }
-.inputdiv>input{
+
+.inputdiv>input {
   width: 90%;
   height: 30px;
   margin: 5px 0px;
   border: 1px solid palevioletred;
   outline: navajowhite;
   border-radius: 20px;
-  padding:5px 5px;
+  padding: 5px 5px;
 }
 
-#submit{
+#submit {
   background-color: palevioletred;
   color: white;
   padding: 10px 30px;
@@ -271,7 +402,8 @@ padding: 30px;
   margin: 0px 20px;
   cursor: pointer;
 }
-#login{
+
+#login {
   background-color: green;
   padding: 10px 30px;
   border: none;
@@ -279,45 +411,52 @@ padding: 30px;
   color: white;
   cursor: pointer;
 }
-#login2{
+
+#login2 {
   color: white;
 }
 
-#popup{
+#popup {
   width: 100%;
   height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#popup>div{
+
+#popup>div {
   width: 50%;
   border: 2px solid palevioletred;
   border-radius: 30px;
   text-align: center;
   padding: 50px;
 }
-#popup>div>h1{
+
+#popup>div>h1 {
   color: black;
   text-align: center;
 }
-#popup>div>h1>span{
+
+#popup>div>h1>span {
   color: palevioletred;
 }
-#popup>div>p{
+
+#popup>div>p {
   text-align: center;
   margin: 20px 0px;
 }
-#popup>div>p>strong{
+
+#popup>div>p>strong {
   color: palevioletred;
 
 }
-#popup>div>p>span{
+
+#popup>div>p>span {
   color: palevioletred;
 }
 
 /* -------------------login----------- */
-#loginarea{
+#loginarea {
   width: 100%;
   height: 95vh;
   display: flex;
@@ -325,38 +464,145 @@ padding: 30px;
   justify-content: space-around;
   margin: 10px 0px;
 }
-#loginarea>div{
+
+#loginarea>div {
   width: 50%;
   height: 100%;
 }
-#loginarea>div>img{
+
+#loginarea>div>img {
   width: 100%;
   height: 100%;
 }
-#loginarea>form{
-width: 40%;
-height: 90%;
-border: 1px solid gray;
-background-color: black;
-padding: 30px;
+
+#loginarea>form {
+  width: 40%;
+  height: 90%;
+  border: 1px solid gray;
+  background-color: black;
+  padding: 30px;
+  border-radius: 20px;
 }
 
-#logindiv{
+#logindiv {
   margin: 20px 0px;
- }
- #logindiv>label{
-   color: palevioletred;
-   margin-left: 5px;
- }
- #logindiv>input{
-   width: 90%;
-   height: 30px;
-   margin: 5px 0px;
-   border: 1px solid palevioletred;
-   outline: navajowhite;
-   border-radius: 20px;
-   padding:5px 5px;
- }
+}
+
+#logindiv>label {
+  color: palevioletred;
+  margin-left: 5px;
+}
+
+#logindiv>input {
+  width: 90%;
+  height: 30px;
+  margin: 5px 0px;
+  border: 1px solid palevioletred;
+  outline: navajowhite;
+  border-radius: 20px;
+  padding: 5px 5px;
+}
 
 
 /* ---------------------- */
+
+#welcome>h1 {
+  text-align: center;
+  padding: 10px 0px;
+  color: palevioletred;
+  font-size: 15px;
+}
+
+#welcome>h1>span {
+  color: black;
+}
+
+
+#profile {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile>div {
+  width: 50%;
+  height: fit-content;
+  border: 2px solid palevioletred;
+  border-radius: 30px;
+  text-align: center;
+  padding: 50px;
+  margin: 20px 0px;
+}
+
+#profile>div>h1 {
+  color: black;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#profile>div>h1>span {
+  color: palevioletred;
+}
+
+#profile>div>#info {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  margin: 20px;
+}
+
+#info>p {
+  text-align: left;
+  margin: 50px 0px;
+}
+
+#info>p>strong {
+  color: palevioletred;
+
+}
+
+#info>p>span {
+  color: palevioletred;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+/* 
+@keyframes bounce {
+
+  20%,
+  53%,
+  80%,
+  from,
+  to {
+    animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+    transform: translate3d(0, 0, 0)
+  }
+
+  40%,
+  43% {
+    animation-timing-function: cubic-bezier(.755, .050, .855, .060);
+    transform: translate3d(0, -30px, 0)
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(.755, .050, .855, .060);
+    transform: translate3d(0, -15px, 0)
+  }
+
+  90% {
+    transform: translate3d(0, -4px, 0)
+  }
+}
+
+.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom
+} */
